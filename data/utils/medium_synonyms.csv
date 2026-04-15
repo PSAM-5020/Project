@@ -1,0 +1,62 @@
+medium_id,term,priority
+M06,sculpture,1
+M04,painting,1
+M03,drawing,1
+M03,drawing and watercolor,1
+M02,print,1
+M01,photograph,1
+M05,video,1
+M05,film,1
+M05,moving image,1
+M07,performance,1
+M08,installation,1
+M09,ceramic,1
+M10,textile,1
+M10,fiber,1
+M11,furniture,1
+M12,mixed media,1
+M01,chromogenic print,2
+M01,c print,2
+M01,gelatin silver print,2
+M01,inkjet print,2
+M01,digital print,2
+M01,photographic print,2
+M02,lithograph,2
+M02,offset lithograph,2
+M02,screenprint,2
+M02,silkscreen,2
+M02,etching,2
+M02,woodcut,2
+M02,engraving,2
+M02,laser-engraved,2
+M03,ink on paper,2
+M03,graphite,2
+M03,pencil,2
+M03,charcoal,2
+M03,pen and ink,2
+M03,watercolor,2
+M03,opaque watercolor,2
+M04,oil on canvas,2
+M04,acrylic,2
+M06,bronze,2
+M06,marble,2
+M06,steel,2
+M06,glass,2
+M06,found objects,2
+M10,embroidery,2
+M10,fabric,2
+M10,silk,2
+M09,stoneware,2
+M09,earthenware,2
+M09,porcelain,2
+M09,bizen,2
+M11,plywood,2
+M11,teak,2
+M11,maple,2
+M02,lithographs,2
+M02,portfolio,2
+M06,resin,2
+M06,bakelite,2
+M06,metal,2
+M11,avodire,2
+M11,paper shade,2

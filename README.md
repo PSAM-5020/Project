@@ -15,11 +15,22 @@ Data considered includes records from the following museums (selected from Art N
 6. Art Insitute of Chicago, Chicago, IL
 7. Cleveland Museum of Art, Cleveland, OH
 
-An initial sampling of data collected is available [here](https://github.com/PSAM-5020/Project/tree/main/data).
+The updated sampling of data collected is available [here](https://github.com/PSAM-5020/Project/tree/main/data/downloaded/processed).
 
 ### Process outline
-1. Collect data - public artist statements, interviews, artwork titles, and institutional biographical text will be the data considered for the analysis
-2. Run classification models to extract themes from blocks of text (potentially [nomic-embed-text-v1.5](https://huggingface.co/nomic-ai/nomic-embed-text-v1.5) or [mixedbread-ai/mxbai-embed-large-v1](https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1))
-3. Grade each artist by theme based on the level that their words are classified to one theme vs. others (some of the models may already do this step or output clusters, the approach to steps 3 and 4 depends on what models are used)
-4. Use k-means clustering to group artists by themes typically explored in their work
-5. Visually plot clusters and breakdown of themes over time per artists - see prototype [here](https://mnav0.github.io/thesis/)
+1. Collect data
+  A. Public artist statements, interviews, artwork titles, and institutional biographical text will be the data considered for the analysis (_In progress_)
+2. Clean and standardize data (reusable processed built :white_check_mark:)
+3. Modeling (_In progress_)
+  Using [nomic-embed-text-v1.5](https://huggingface.co/nomic-ai/nomic-embed-text-v1.5):
+  A. Split texts by semantic chunks to get 1-3 sentences about same subject
+  B. Use search_document with terms to filter resulting semantic chunks and keep only those about identity
+  C. Embed texts
+  D. Cluster using k-means to group texts by theme, examine and evaluate results
+     Current progress:
+  E. Use TF-IDF to get words from all the text in a cluster that "summarize" that cluster
+4. Average the text clusters to summarize artists based on their text clustering and embeddings, format to plot on the UI (_In progress_)
+5. Manually examine clusters and labels to get final cluster labels that will display on UI (**Not yet started**)
+6. Visually plot clusters and breakdown of themes over time per artists - see prototype [here](https://mnav0.github.io/thesis/) (_In progress_)
+  ** Note: right now I'm plotting all of the exported clusters with different values for _n_, this is more exploratory for me to visually understand the results but the final visualization will likely have a couple of versions of these clusters that are combined with the different sources to get a sense of different label/term associations possible with different number of groupings (see below for current progress)
+

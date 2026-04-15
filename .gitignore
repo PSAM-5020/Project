@@ -1,0 +1,3 @@
+# only upload processed data
+data/downloaded/unprocessed/*
+data/colab/*
