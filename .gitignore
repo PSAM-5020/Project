@@ -1,3 +1,8 @@
 # only upload processed data
 data/downloaded/unprocessed/*
 data/colab/*
+
+collecting/museum-data/exports/*
+collecting/museum-data/formatted-exports/*
+collecting/museum-data/raw-museum-data/*
+collecting/artist-data/input.txt

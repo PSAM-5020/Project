@@ -1,202 +1,408 @@
-[
-  {
-    "id": 0,
-    "name": "Part Asian, 100% Hapa",
-    "labels": [
-      "hapa",
-      "100",
-      "ancestry"
-    ],
-    "items": [
-      {
-        "artistId": 4,
-        "isShared": true,
-        "_angle": 0.5236,
-        "_radius_frac": 0.85
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "name": "War Baby / Love Child: Mixed Race Asian American Art",
-    "labels": [
-      "mixed",
-      "war",
-      "race"
-    ],
-    "items": [
-      {
-        "artistId": 1,
-        "isShared": false,
-        "_angle": 0.0,
-        "_radius_frac": 0.35
-      },
-      {
-        "artistId": 2,
-        "isShared": false,
-        "_angle": 2.0944,
-        "_radius_frac": 0.35
-      },
-      {
-        "artistId": 3,
-        "isShared": false,
-        "_angle": 4.1888,
-        "_radius_frac": 0.35
-      },
-      {
-        "artistId": 4,
-        "isShared": true,
-        "_angle": 0.5236,
-        "_radius_frac": 0.85
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Ruth Asawa: Citizen of the Universe",
-    "labels": [
-      "citizen",
-      "universe",
-      "life"
-    ],
-    "items": [
-      {
-        "artistId": 5,
-        "isShared": false,
-        "_angle": 0.0,
-        "_radius_frac": 0.35
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Isamu Noguchi: Archaic/Modern",
-    "labels": [
-      "archaic",
-      "modern",
-      "ancient"
-    ],
-    "items": [
-      {
-        "artistId": 0,
-        "isShared": true,
-        "_angle": 0.5236,
-        "_radius_frac": 0.85
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "name": "Dis/orient: Contemporary Art of the Asian Diaspora",
-    "labels": [
-      "orient",
-      "dis",
-      "diaspora"
-    ],
-    "items": [
-      {
-        "artistId": 6,
-        "isShared": false,
-        "_angle": 0.0,
-        "_radius_frac": 0.35
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "name": "Legacies: Asian American Art Movements in New York City",
-    "labels": [
-      "legacies",
-      "artists",
-      "art"
-    ],
-    "items": [
-      {
-        "artistId": 0,
-        "isShared": true,
-        "_angle": 0.5236,
-        "_radius_frac": 0.85
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "name": "Oscar yi Hou: East of sun, west of moon",
-    "labels": [
-      "east",
-      "like",
-      "west"
-    ],
-    "items": [
-      {
-        "artistId": 7,
-        "isShared": false,
-        "_angle": 0.0,
-        "_radius_frac": 0.35
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "name": "Biennale Arte 2015: All the World's Futures",
-    "labels": [
-      "international",
-      "world",
-      "countries"
-    ],
-    "items": [
-      {
-        "artistId": 8,
-        "isShared": false,
-        "_angle": 0.0,
-        "_radius_frac": 0.35
-      },
-      {
-        "artistId": 14,
-        "isShared": false,
-        "_angle": 3.1416,
-        "_radius_frac": 0.35
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "name": "Global Fascisms",
-    "labels": [
-      "ideologies",
-      "global",
-      "authoritarian"
-    ],
-    "items": [
-      {
-        "artistId": 13,
-        "isShared": false,
-        "_angle": 0.0,
-        "_radius_frac": 0.35
-      },
-      {
-        "artistId": 15,
-        "isShared": false,
-        "_angle": 3.1416,
-        "_radius_frac": 0.35
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "name": "You Sad Legend",
-    "labels": [
-      "documentary",
-      "filmmaker",
-      "dead"
-    ],
-    "items": [
-      {
-        "artistId": 9,
-        "isShared": false,
-        "_angle": 0.0,
-        "_radius_frac": 0.35
-      }
-    ]
-  }
-]
+{
+  "exhibitions": [
+    {
+      "id": 0,
+      "name": "Part Asian, 100% Hapa",
+      "labels": [
+        "hapa",
+        "ancestry",
+        "asian"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "War Baby / Love Child: Mixed Race Asian American Art",
+      "labels": [
+        "mixed",
+        "asian",
+        "american"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ruth Asawa: Citizen of the Universe",
+      "labels": [
+        "citizen",
+        "universe",
+        "life"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Dis/orient: Contemporary Art of the Asian Diaspora",
+      "labels": [
+        "orient",
+        "dis",
+        "diaspora"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Legacies: Asian American Art Movements in New York City",
+      "labels": [
+        "legacies",
+        "asian",
+        "american"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Oscar yi Hou: East of sun, west of moon",
+      "labels": [
+        "east",
+        "asian",
+        "chinese"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Biennale Arte 2015: All the World's Futures",
+      "labels": [
+        "countries",
+        "international",
+        "world"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Global Fascisms",
+      "labels": [
+        "ideologies",
+        "global",
+        "authoritarian"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Across the Pacific: Contemporary Korean and Korean American Art",
+      "labels": [
+        "korean",
+        "english",
+        "pacific"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "America is Hard to See",
+      "labels": [
+        "hard",
+        "american",
+        "america"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Portraiture Now: Asian American Portraits of Encounter",
+      "labels": [
+        "portraiture",
+        "asian",
+        "smithsonian"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Ascendancy: The Self in Contemporary Art",
+      "labels": [
+        "ascendancy",
+        "agency",
+        "personal"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "One Way or Another: Asian American Art Now",
+      "labels": [
+        "american",
+        "asian",
+        "chinese"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "The Decade Show: Frameworks of Identity in the 1980s",
+      "labels": [
+        "decade",
+        "studio",
+        "frameworks"
+      ]
+    }
+  ],
+  "artists": [
+    {
+      "artistId": 4,
+      "exhibitionIds": [
+        0,
+        1
+      ],
+      "isShared": true,
+      "_radius_frac": 0.85,
+      "_jitter_angle": 0.0
+    },
+    {
+      "artistId": 1,
+      "exhibitionIds": [
+        1
+      ],
+      "isShared": false,
+      "_radius_frac": 0.35,
+      "_angle": 0.0
+    },
+    {
+      "artistId": 2,
+      "exhibitionIds": [
+        1,
+        13
+      ],
+      "isShared": true,
+      "_radius_frac": 0.85,
+      "_jitter_angle": 1.0472
+    },
+    {
+      "artistId": 3,
+      "exhibitionIds": [
+        1
+      ],
+      "isShared": false,
+      "_radius_frac": 0.35,
+      "_angle": 1.5708
+    },
+    {
+      "artistId": 17,
+      "exhibitionIds": [
+        1
+      ],
+      "isShared": false,
+      "_radius_frac": 0.35,
+      "_angle": 3.1416
+    },
+    {
+      "artistId": 18,
+      "exhibitionIds": [
+        1,
+        14
+      ],
+      "isShared": true,
+      "_radius_frac": 0.85,
+      "_jitter_angle": 2.618
+    },
+    {
+      "artistId": 20,
+      "exhibitionIds": [
+        1
+      ],
+      "isShared": false,
+      "_radius_frac": 0.35,
+      "_angle": 4.7124
+    },
+    {
+      "artistId": 5,
+      "exhibitionIds": [
+        2,
+        10
+      ],
+      "isShared": true,
+      "_radius_frac": 0.85,
+      "_jitter_angle": 3.6652
+    },
+    {
+      "artistId": 6,
+      "exhibitionIds": [
+        4
+      ],
+      "isShared": false,
+      "_radius_frac": 0.35,
+      "_angle": 0.0
+    },
+    {
+      "artistId": 15,
+      "exhibitionIds": [
+        4
+      ],
+      "isShared": false,
+      "_radius_frac": 0.35,
+      "_angle": 3.1416
+    },
+    {
+      "artistId": 0,
+      "exhibitionIds": [
+        5,
+        10
+      ],
+      "isShared": true,
+      "_radius_frac": 0.85,
+      "_jitter_angle": 5.236
+    },
+    {
+      "artistId": 10,
+      "exhibitionIds": [
+        5,
+        10,
+        14
+      ],
+      "isShared": true,
+      "_radius_frac": 0.85,
+      "_jitter_angle": 5.7596
+    },
+    {
+      "artistId": 12,
+      "exhibitionIds": [
+        5,
+        9
+      ],
+      "isShared": true,
+      "_radius_frac": 0.85,
+      "_jitter_angle": 6.2832
+    },
+    {
+      "artistId": 13,
+      "exhibitionIds": [
+        5,
+        10
+      ],
+      "isShared": true,
+      "_radius_frac": 0.85,
+      "_jitter_angle": 6.8068
+    },
+    {
+      "artistId": 14,
+      "exhibitionIds": [
+        5
+      ],
+      "isShared": false,
+      "_radius_frac": 0.35,
+      "_angle": 0.0
+    },
+    {
+      "artistId": 16,
+      "exhibitionIds": [
+        5,
+        8,
+        14
+      ],
+      "isShared": true,
+      "_radius_frac": 0.85,
+      "_jitter_angle": 7.854
+    },
+    {
+      "artistId": 19,
+      "exhibitionIds": [
+        5,
+        9,
+        10
+      ],
+      "isShared": true,
+      "_radius_frac": 0.85,
+      "_jitter_angle": 8.3776
+    },
+    {
+      "artistId": 7,
+      "exhibitionIds": [
+        6
+      ],
+      "isShared": false,
+      "_radius_frac": 0.35,
+      "_angle": 0.0
+    },
+    {
+      "artistId": 8,
+      "exhibitionIds": [
+        7
+      ],
+      "isShared": false,
+      "_radius_frac": 0.35,
+      "_angle": 0.0
+    },
+    {
+      "artistId": 26,
+      "exhibitionIds": [
+        7,
+        13
+      ],
+      "isShared": true,
+      "_radius_frac": 0.85,
+      "_jitter_angle": 9.9484
+    },
+    {
+      "artistId": 11,
+      "exhibitionIds": [
+        8,
+        10
+      ],
+      "isShared": true,
+      "_radius_frac": 0.85,
+      "_jitter_angle": 10.472
+    },
+    {
+      "artistId": 9,
+      "exhibitionIds": [
+        10
+      ],
+      "isShared": false,
+      "_radius_frac": 0.35,
+      "_angle": 0.0
+    },
+    {
+      "artistId": 21,
+      "exhibitionIds": [
+        10
+      ],
+      "isShared": false,
+      "_radius_frac": 0.35,
+      "_angle": 3.1416
+    },
+    {
+      "artistId": 24,
+      "exhibitionIds": [
+        11
+      ],
+      "isShared": false,
+      "_radius_frac": 0.35,
+      "_angle": 0.0
+    },
+    {
+      "artistId": 25,
+      "exhibitionIds": [
+        11
+      ],
+      "isShared": false,
+      "_radius_frac": 0.35,
+      "_angle": 3.1416
+    },
+    {
+      "artistId": 22,
+      "exhibitionIds": [
+        12
+      ],
+      "isShared": false,
+      "_radius_frac": 0.35,
+      "_angle": 0.0
+    },
+    {
+      "artistId": 23,
+      "exhibitionIds": [
+        12
+      ],
+      "isShared": false,
+      "_radius_frac": 0.35,
+      "_angle": 3.1416
+    },
+    {
+      "artistId": 27,
+      "exhibitionIds": [
+        14
+      ],
+      "isShared": false,
+      "_radius_frac": 0.35,
+      "_angle": 0.0
+    },
+    {
+      "artistId": 29,
+      "exhibitionIds": [
+        14
+      ],
+      "isShared": false,
+      "_radius_frac": 0.35,
+      "_angle": 3.1416
+    }
+  ]
+}
