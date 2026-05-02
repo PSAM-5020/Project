@@ -6,3 +6,5 @@ collecting/museum-data/exports/*
 collecting/museum-data/formatted-exports/*
 collecting/museum-data/raw-museum-data/*
 collecting/artist-data/input.txt
+
+processing/4_extract_addl_data/images
